@@ -4,6 +4,29 @@ This repository contains Jupyter notebooks implementing the code samples found i
 
 These notebooks use Python 3.6 and Keras 2.0.8. They were generated on a p2.xlarge EC2 instance.
 
+To make the setup more easy, [FloydHub](https://www.floydhub.com/) has already prepared the environment for you! Following the next steps you will have an GPU instance up and running for executing the Jupyter Notebook, Happy Deep Learning with Python :)
+
+## FloydHub setup
+
+```bash
+floyd run --mode jupyter --gpu --env tensorflow-1.4
+```
+
+TOADD:
+
+2.1: How to run a code Cell, You have zero setup on FloydHub, where you can find the dataset, you can mount it
+3.5: where you can find the dataset, you can mount it
+3.6: where you can find the dataset, you can mount it
+3.7: where you can find the dataset, you can mount it
+4.1: where you can find the dataset, you can mount it
+5.1:
+5.2: require mounting sominw/datasets/dogsvscats/1
+
+TODO:
+Test 2.1, 3.5, 3.6, 3.7(half), 4.4, 5.1 on CPU
+
+
+
 ## Table of contents
 
 * Chapter 2:
