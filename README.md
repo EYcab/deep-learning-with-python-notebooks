@@ -26,7 +26,7 @@ $ floyd login
 
 ```
 $ cd /path/to/your-project-dir
-$ floyd clone redeipirati/projects/deep-learning-with-python-notebooks/13
+$ floyd clone redeipirati/projects/deep-learning-with-python-notebooks/22
 ```
 
 ### 3. Create your project version on FloydHub
@@ -55,7 +55,7 @@ Once the job is started, the jupyter notebook will open in your browser and you 
 
 ### More about FloydHub platform
 
-* Note that changes you make to the notebook running on Floyd servers are not going to be saved at your local directory, but they are going to be available in the [output](redeipirati/projects/deep-learning-with-python-notebooks/13/output) section of your job.
+* Note that changes you make to the notebook running on Floyd servers are not going to be saved at your local directory, but they are going to be available in the [output](redeipirati/projects/deep-learning-with-python-notebooks/22/output) section of your job.
 * Once you stop the Jupyter notebook job you were running, from the job page, you can click on [Restart](http://blog.floydhub.com/restart-jupyter-notebook-workflow/?utm_medium=email&utm_source=21sep17) to restart your job exactly how you left it and optionally choosing another environment (CPU or GPU). This is a great way to spend less of your GPU hours if you are working on tasks that does not require a GPU.
 * If you need any help check our [documentation](http://docs.floydhub.com/) and [forum](https://forum.floydhub.com/).
 
