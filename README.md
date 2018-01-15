@@ -4,9 +4,14 @@ This repository contains Jupyter notebooks implementing the code samples found i
 
 These notebooks use Python 3.6 and Keras 2.0.8. They were generated on a p2.xlarge EC2 instance.
 
-You can easily run these code samples on GPU-powered Jupyter notebooks with [FloydHub](https://www.floydhub.com/). [Install](https://docs.floydhub.com/getstarted/quick_start/) the `floyd-cli` command line tool and run this command to get started:
+You can easily run these code samples on GPU-powered Jupyter notebooks with [FloydHub](https://www.floydhub.com/). [Install](https://docs.floydhub.com/getstarted/quick_start/) the `floyd-cli` command line tool and run these commands to get started:
 
 ```
+mkdir deep-learning
+cd deep-learning
+floyd clone redeipirati/projects/deep-learning-with-python-notebooks/22
+floyd init deep-learning
+
 floyd run \
   --env tensorflow-1.4 \
   --data redeipirati/datasets/cats_and_dogs_small/1:input \
